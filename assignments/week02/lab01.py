@@ -31,5 +31,5 @@ if bmi >= 18.5 and bmi <= 24.9:
 if bmi >= 25.0 and bmi <= 29.9:
     print("OverWeight")
 
-if bmi >= 30.0 and bmi > above:
+if bmi >= 30.0 and bmi > 31.00 :
     print("Obese")
