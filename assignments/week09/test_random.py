@@ -3,9 +3,11 @@ import random
 test_random = random.randint(1,20)
 
 print(" *** เกมทายใจคอมพิวเตอร์ ***")
+print(" *** ทายจำนวนเต็มตั้งแต่ 1-20 ***")
+print(" *** มีโอกาส 6 ครั้ง ***")
 
 for i in rang(6):
-    
+
     print(f"ความพยายามครั้งที่{i+1}")
     guess_number = int(input("What is your guess number?:"))
 
