@@ -6,7 +6,7 @@ print(" *** เกมทายใจคอมพิวเตอร์ ***")
 print(" *** ทายจำนวนเต็มตั้งแต่ 1-20 ***")
 print(" *** มีโอกาส 6 ครั้ง ***")
 
-for i in rang(6):
+for i in range(6):
 
     print(f"ความพยายามครั้งที่{i+1}")
     guess_number = int(input("What is your guess number?:"))
@@ -19,6 +19,7 @@ elif guess_number < test_random :
 
 elif guess_number > test_random:
     print("ผิดครับพีห์ ลดลงอีก")
+
 
 def test_random():
     random_number = random.radint(1,100)
